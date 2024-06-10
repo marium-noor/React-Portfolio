@@ -10,7 +10,7 @@ const Footer = () => {
             <a href="https://github.com/marium-noor" target='_blank' className='hover:text-pink-300'><GithubIcon /></a>
             <a href="https://linkedin.com/in/mariumnoor29" target='_blank' className='hover:text-pink-300'><Linkedin /></a>
             <a href="mailto:imariumnoor@gmail.com" target='_blank' className='hover:text-pink-300'><Mail /></a>
-            <a href="" className='hover:text-pink-300'><Pen /></a>
+            <a href="https://medium.com/@imariumnoor" target='_blank' className='hover:text-pink-300'><Pen /></a>
           </div>
           <p className='text-[12px] font-tiny5 text-slate-300 lg:hidden'>@ 2024 Marium Noor</p>
         </div>

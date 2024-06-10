@@ -15,10 +15,10 @@ export const headerData = [
         title: 'My Work',
         path: '#myWork'
     },
-    {
-        title: 'Socials',
-        path: '#socials'
-    }
+    // {
+    //     title: 'Chat',
+    //     path: '#chat'
+    // }
 ]
 
 export const techs = [
