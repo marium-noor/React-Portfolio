@@ -1,4 +1,4 @@
-import { GithubIcon, Linkedin, Mail, Pen } from 'lucide-react'
+import { GithubIcon, Linkedin, Mail, Pen, Triangle } from 'lucide-react'
 import React from 'react'
 
 const Footer = () => {
@@ -11,6 +11,7 @@ const Footer = () => {
             <a href="https://linkedin.com/in/mariumnoor29" target='_blank' className='hover:text-pink-300'><Linkedin /></a>
             <a href="mailto:imariumnoor@gmail.com" target='_blank' className='hover:text-pink-300'><Mail /></a>
             <a href="https://medium.com/@imariumnoor" target='_blank' className='hover:text-pink-300'><Pen /></a>
+            <a href="https://vercel.com/marium-noors-projects" target='_blank' className='hover:text-pink-300'><Triangle /></a>
           </div>
           <p className='text-[12px] font-tiny5 text-slate-300 lg:hidden'>@ 2024 Marium Noor</p>
         </div>

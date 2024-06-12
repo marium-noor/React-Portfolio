@@ -1,12 +1,12 @@
 import React from 'react';
+import {questions} from '../data'
+// const questions = [
+//   { question: 'Who am I?', answer: 'I am Marium Noor, a passionate frontend developer, who love to creat eexceptional user interfaces.' },
 
-const questions = [
-  { question: 'Who am I?', answer: 'I am Marium Noor, a passionate frontend developer, who love to creat eexceptional user interfaces.' },
-
-  { question: 'How can you contact me?', answer: 'You can contact me via email at example@example.com or through my LinkedIn profile given in footer section.' },
-  { question: 'Who am I?', answer: 'I am Marium Noor, a passionate frontend developer, who loves to create exceptional user interfaces.' },
-  // Add more questions and answers here
-];
+//   { question: 'How can you contact me?', answer: 'You can contact me via email at example@example.com or through my LinkedIn profile given in footer section.' },
+//   { question: 'Who am I?', answer: 'I am Marium Noor, a passionate frontend developer, who loves to create exceptional user interfaces.' },
+//   // Add more questions and answers here
+// ];
 
 const Chat = ({ onClose }) => {
   const [selectedAnswer, setSelectedAnswer] = React.useState('');
