@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import TechStack from './components/TechStack'
-import Work2 from './components/Work2'
+import Work from './components/Work'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <HeroPortfolio />
       <AboutMe />
       <TechStack />
-      <Work2 />
+      <Work />
       <Footer />
     </div>
   )

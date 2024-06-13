@@ -23,16 +23,16 @@ export const techs = [
 
   export const workCardData = [
     {
-      title: 'Blog App',
-      preview: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non excepturi ratione quasi! Ipsa doloribus, sint illum, perferendis ea, explicabo nam sequi voluptatum eos repellendus temporibus quaerat a nihil doloremque ut!',
-      technologies: ['Redux', 'React', 'Appwrite', 'Tailwind'],
-      code: '',
-      demo: ''
+      title: 'Blog Tap',
+      preview: 'Welcome to the Blog Tap, an advance blogging platform built with Appwrite and React. This project is in its initial phase and serves as a foundation for developing a comprehensive and feature-rich blogging application!',
+      technologies: ['React', 'Redux', 'Appwrite', 'Tailwind'],
+      code: 'https://github.com/marium-noor/Blog-app',
+      demo: 'https://blog-app-plum-xi.vercel.app/'
     },
     {
       title: 'Admin Dashboard',
       preview: 'Created the best and most modern React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!',
-      technologies: ['React', 'Tailwind', 'SyncFusion', 'Context API', 'UI/UX'],
+      technologies: ['React', 'Tailwind', 'SyncFusion', 'Context API', 'UI/UX, React-Router-DOM'],
       code: 'https://github.com/marium-noor/Admin-Dashboard',
       demo: 'https://admin-dashboard-ivory-alpha.vercel.app/'
     },
