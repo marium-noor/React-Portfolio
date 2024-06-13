@@ -44,8 +44,15 @@ export const techs = [
       demo: 'https://github-user-explorer-ten.vercel.app/',
     },
     {
+      title: 'Expense Tracker',
+      preview: 'An expense tracker application made with React. Utilized Context API for state management!',
+      technologies: ['Tailwind', 'React'],
+      code: 'https://github.com/marium-noor/Expense-Tracker',
+      demo: 'https://expense-tracker-navy-xi.vercel.app/',
+    },
+    {
       title: '15+ JavaScript Projects',
-      preview: 'Vanilla JavaScript Projects focused on functionality. Tic-Tac-Toe, Quiz Game, Todo App, Currency Converter, Calculator, Image Gallery, Word Counter, Keyboard Game, Color Scheme Switcher, Stopwatch, Digital Clock, Counter, Random Color Generator, Joke Generator, Guess the Number, BMI Calculator',
+      preview: 'Vanilla JavaScript Projects focused on functionality. Tic-Tac-Toe, Quiz Game, Todo App, Currency Converter, Calculator, Image Gallery, Word Counter, Keyboard Game, Color Scheme Switcher, Stopwatch, Digital Clock, Counter, Random Color Generator, Joke Generator, Guess the Number, BMI Calculator.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       code : 'https://github.com/marium-noor/JavaScript-projects'
     }
