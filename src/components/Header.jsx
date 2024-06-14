@@ -40,7 +40,7 @@ function Header() {
             {/* Menu */}
             <div className="lg:hidden flex items-center text-white z-50">
               <button onClick={handleClick}>
-                {activeMenu ? <X className='text-slate-900' /> : <Menu />}
+                {activeMenu ? <X className='hidden' /> : <Menu />}
               </button>
             </div>
         </div>
@@ -48,7 +48,7 @@ function Header() {
     </div>
 
     {activeMenu && (
-        <div className='lg:hidden absolute top-0 left-0 z-40 bg-white text-slate-900 p-6 w-2/3 lg:w-1/2 h-screen shadow-lg transition-transform transform translate-x-0'>
+        <div className='lg:hidden top-0 left-0 z-40 bg-white text-slate-900 p-6 w-2/3 lg:w-1/2 h-[100vh] shadow-lg transition-transform transform translate-x-0 fixed'>
           <button onClick={handleClick} className='absolute top-4 right-4'>
             <X />
           </button>
@@ -72,7 +72,7 @@ function Header() {
           </div>
         </div>
       )}
-        {displayChat && <Chat onClose={showChat} />} {/* Display chat when toggled */}
+        {displayChat && <Chat onClose={showChat} />}
     </>
   )
 }
