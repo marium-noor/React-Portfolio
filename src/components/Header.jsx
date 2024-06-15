@@ -56,6 +56,7 @@ function Header() {
             {headerData.map((item, index) => (
               <a
                 key={index}
+                onClick={handleClick}
                 href={item.path}
                 className='text-xl font-medium hover:text-indigo-600 transition-colors duration-200'
               >
