@@ -32,13 +32,13 @@ export const techs = [
     {
       title: 'Admin Dashboard',
       preview: 'Created the best and most modern React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!',
-      technologies: ['React', 'Tailwind', 'SyncFusion', 'Context API', 'UI/UX, React-Router-DOM'],
+      technologies: ['React', 'Tailwind', 'SyncFusion', 'Context API', 'UI/UX', 'React-Router-DOM'],
       code: 'https://github.com/marium-noor/Admin-Dashboard',
       demo: 'https://admin-dashboard-ivory-alpha.vercel.app/'
     },
     {
       title: 'Github User Explorer',
-      preview: 'GitHub User Explorer is a React application that allows users to search for GitHub profiles by username and display detailed information about each user, including their repositories. The project uses Tailwind CSS for styling and the GitHub API to fetch user data.!',
+      preview: 'GitHub User Explorer is a React application that allows users to search for GitHub profiles by username and display detailed information about each user, including their repositories. The project uses Tailwind CSS for styling and the GitHub API to fetch user data!',
       technologies: ['Tailwind', 'React', 'RESTAPI'],
       code: 'https://github.com/marium-noor/Github-User-Explorer',
       demo: 'https://github-user-explorer-ten.vercel.app/',
@@ -59,8 +59,8 @@ export const techs = [
   ];
 
   export const questions = [
-    { question: 'Who am I?', answer: 'I am Marium Noor, a passionate frontend developer, who love to creates exceptional user interfaces.' },
-    { question: 'How can you contact me?', answer: 'You can contact me via email at imariumnoor@gmail.com or through my LinkedIn profile given in footer section.' },
+    { question: 'Who am I?', answer: 'Hey, i am maryam a passionate frontend developer, who love to creates exceptional user interfaces.' },
+    { question: 'How can you contact me?', answer: 'You can contact me via email at imariumnoor@gmail.com or through my LinkedIn profile provided below.' },
     { question: 'What passionates me for coding?', answer: 'I love coding because it allows me to solve real-world problems and bring creative ideas to life.'}
   ];
   
