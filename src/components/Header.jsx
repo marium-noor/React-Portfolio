@@ -24,7 +24,7 @@ function Header() {
           {/* Logo */}
             <div className='flex text-white w-1/2'>
                 <img className='h-8 w-16' src={Logo} alt="" />
-                <h1 className='text-lg lg:text-xl ml-2 font-tiny5 font-bold'>Maryam.tech</h1>
+                <h1 className='text-lg lg:text-xl ml-2 font-tiny5 font-bold'>Maryam.dev</h1>
             </div>
             {/* Links */}
             {headerData.map((item, index) => (
